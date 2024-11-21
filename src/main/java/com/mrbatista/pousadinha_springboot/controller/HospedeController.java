@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mrbatista.pousadinha_springboot.dto.HospedeMinDTO;
-import com.mrbatista.pousadinha_springboot.entities.Hospede;
 import com.mrbatista.pousadinha_springboot.services.HospedeService;
 
 @RestController
