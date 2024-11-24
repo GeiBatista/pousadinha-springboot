@@ -1,6 +1,7 @@
 package com.mrbatista.pousadinha_springboot.dto;
 
 import com.mrbatista.pousadinha_springboot.entities.Hospede;
+import com.mrbatista.pousadinha_springboot.projections.HospedeMinProjection;
 
 public class HospedeMinDTO {
 	
@@ -20,6 +21,15 @@ public class HospedeMinDTO {
 		telefone = entity.getTelefone();
 		idade = entity.getIdade();
 		imgUrl = entity.getImgUrl();
+	}
+	
+	public HospedeMinDTO(HospedeMinProjection projection) {
+		id = projection.getId();
+		nome = projection.getNome();
+		email = projection.getEmail();
+		telefone = projection.getTelefone();
+		idade = projection.getIdade();
+		imgUrl = projection.getImgUrl();
 	}
 
 	public Long getId() {

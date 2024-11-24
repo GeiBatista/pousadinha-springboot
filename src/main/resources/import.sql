@@ -18,8 +18,8 @@ INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 3, 2);
 INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 4, 3);
 INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 5, 4);
 
-INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 6, 0);
-INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 7, 1);
-INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 8, 2);
-INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 9, 3);
-INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (1, 10, 4);
+INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (2, 6, 0);
+INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (2, 7, 1);
+INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (2, 8, 2);
+INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (2, 9, 3);
+INSERT INTO tb_prioridade (list_id, hospede_id, position) VALUES (2, 10, 4);
